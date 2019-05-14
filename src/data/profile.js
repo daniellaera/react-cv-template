@@ -1,26 +1,25 @@
 const profile = {
-  name: 'S.Berkay Aydın',
+  name: 'Daniel Laera',
   title: 'Full Stack Developer',
-  mail: 'sbaydin06@gmail.com',
-  phoneNumber: '+90 (507) 808 4130',
-  website: 'sbaydin.com',
-  linkedin: 'linkedin.com/in/sbaydin',
-  github: 'github.com/sbayd',
-  imagePath: 'profile.png',
+  mail: 'daniel.laera@outlook.com',
+  phoneNumber: '+41 76 525 98 54',
+  address: 'Rue Peillonnex 35B 1225 Chêne-Bourg',
+  website: 'daniellaera.com',
+  linkedin: 'linkedin.com/in/daniel-laera-89401b96/',
+  github: 'github.com/daniellaera',
+  imagePath: 'photo-cv_2.jpg',
   twitter: null,
   educationDetails: {
-    sectionTitle: '',
-    list: [
-      { name: 'BSc in CEIT', school: 'Hacettepe University', date: '2013-Present' },
-    ]
+    sectionTitle: 'Education',
+    list: [{ name: 'Tecnico delle Industrie Elettroniche/Eletettrotecniche', school: 'IPIA', date: '1996 - 2004' }]
   },
   languages: {
     sectionTitle: 'Languages',
-    list: [{ name: 'Turkish', level: 'Native' }, { name: 'English', level: 'Professional' }, { name: 'Spanish', level: 'Beginner' }]
+    list: [{ name: 'Italian', level: 'Native' }, { name: 'English', level: 'Proficient user' }, { name: 'French', level: 'Proficient user' }, { name: 'Spanish', level: 'Beginner'}]
   },
   interests: {
     sectionTitle: '',
-    list: ['Pipes', 'Analog Photography', 'Cooking', 'Archery', 'Poems', 'Drums']
+    list: ['Guitar', 'Table tennis', 'Music', 'Videogames', 'Skiing', 'Movies', 'Bike']
   }
 };
 

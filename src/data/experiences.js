@@ -4,36 +4,36 @@ export const experiences = {
   description: null,
   list: [
     {
-      title: 'Lead Software Developer',
-      company: 'JotForm',
-      description: 'I\'m working as a lead developer at JotForm Source team. We are creating some amazing features for JotForm!',
-      companyLink: 'http://jotform.com',
+      title: 'Full Stack Developer',
+      company: 'DSI HUG for Academic Work',
+      description: 'Project SPHN/Clinerion, DPIData importer/exporter migration from AngularJS to Angular 6+.',
+      companyLink: 'https://www.hug-ge.ch',
       companyShortDetail: '',
-      date: '2017.10 - Present'
+      date: '11.2018 - 05.2019'
     },
     {
-      title: 'Software Developer',
-      company: 'JotForm',
-      description: 'I\'m using ReactJS and working as a front-end developer to develop new features for JotForm.',
-      companyLink: 'http://jotform.com',
+      title: 'Webmaster',
+      company: 'Bongenie Grieder',
+      description: 'IBM WebSphere E-commerce development and integration',
+      companyLink: 'https://www.bongenie-grieder.ch/en/',
       companyShortDetail: '',
-      date: '2016.8 - 2017.10'
+      date: '07.2018 - 08.2018'
     },
     {
-      title: 'Full-Stack Developer',
-      company: 'YD Software',
-      description: 'I was using ASP.Net MVC Framework with N Tier Architecture to develop management systems, learning management systems & big data projects. And i was developing Android / IOS applications using Xamarin or NDK. You can see projects that I have completed for YD Software <a href=\'#projects\'>below.</a>',
-      companyLink: 'http://ydyazilim.com',
-      companyShortDetail: 'ANKARA METU Technopolis(ODTU Teknokent)',
-      date: '2012 - 2016.8'
+      title: 'Developer',
+      company: 'Reverseweb',
+      description: 'Responsive web applications for different clients<a href=\'#projects\'>below.</a>',
+      companyLink: 'https://www.reverseweb.ch/',
+      companyShortDetail: '',
+      date: '2017 - 2018'
     },
     {
-      title: 'Intern',
-      company: 'YD Software',
-      description: 'I was warming up with a Learning Management System including desktop and web apps.',
-      companyLink: 'http://ydyazilim.com',
+      title: 'Developer, Self-taught',
+      company: '',
+      description: 'Web applications, Web Development YouTube channel, personal portfolio website.',
+      companyLink: 'daniellaera.com',
       companyShortDetail: 'ANKARA METU Technopolis(ODTU Teknokent)',
-      date: '2012.06 - 2012.10'
+      date: '2013 - 2017'
     }
   ]
 };

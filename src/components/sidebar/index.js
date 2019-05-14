@@ -39,6 +39,7 @@ export default class Sidebar extends Component {
     return (<ContactDetails
       mail={this.props.mail}
       phoneNumber={this.props.phoneNumber}
+      address={this.props.address}
       website={this.props.website}
       linkedin={this.props.linkedin}
       github={this.props.github}

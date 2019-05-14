@@ -26,6 +26,7 @@ export default class ContactDetails extends Component {
         <ul className="list-unstyled contact-list">
           {this.renderListItem('email', this.props.mail, 'fa-envelope', 'email')}
           {this.renderListItem('phone', this.props.phoneNumber, 'fa-phone', 'phone')}
+          {this.renderListItem('address', this.props.address, 'fa-map-marker', 'address')}
           {this.renderListItem('website', this.props.website, 'fa-globe', 'link')}
           {this.renderListItem('linkedin', this.props.linkedin, 'fa-linkedin', 'link')}
           {this.renderListItem('github', this.props.github, 'fa-github', 'link')}
@@ -39,6 +40,7 @@ export default class ContactDetails extends Component {
 ContactDetails.propTypes = {
   mail: PropTypes.string.isRequired,
   phoneNumber: PropTypes.string,
+  address: PropTypes.string,
   website: PropTypes.string,
   linkedin: PropTypes.string,
   github: PropTypes.string,

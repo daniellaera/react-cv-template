@@ -7,7 +7,7 @@ export default class Projects extends Component {
     return (
       <div className="item" key={`project_item_${i}`}>
         {this.renderProjectTitle(item)}
-         -
+          -
         <span
           style={{ marginLeft: 5 }}
           className="project-tagline"
